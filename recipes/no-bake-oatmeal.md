@@ -1,6 +1,6 @@
 # No Bake Oatmeal Cookies
 
-![Recipe Scan](/static/images/no-bake-oatmeal-cookies.jpg "Recipe Scan")
+![Recipe Scan](/static/images/no-bake-oatmeal.jpg "Recipe Scan")
 
 ## Ingredients
 - 2 cups oatmeal
