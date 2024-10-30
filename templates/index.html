@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+{% block head %}
+
+<script src="{{ url_for('static', filename='index.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+
+{% endblock head %}
+
+{% block content %}
+
+<h1> Colley Recipe Book </h1>
+
+<div class="recipes-wrapper">
+
+{%for recipe in recipes %}
+    <a class="recipe-link" href="{{recipe.url}}">
+        <h2 class="recipe-title"> {{recipe.title}} </h2>
+        <img class="recipe-image" src="{{recipe.image}}"/>
+    </a>
+{%endfor%}
+
+</div>
+
+{% endblock content %}

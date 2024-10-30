@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="{{ url_for('static', filename='global.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='global.css') }}">
+    {% if title %}
+        <title>{{ title }}</title>
+    {% endif %}
+
+    {% block head %} {% endblock %}
+</head>
+<body>
+    <!--
+    <header>
+        <ul class="topnav">
+            <li class="logo">Logo</li>
+            <li><a class="homenav" href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="/notes">Notes</a></li>
+        </ul>
+    </header>
+    -->
+
+    <!--
+    <h1>{{ title }}</h1>
+    -->
+
+    {% block content %}{% endblock %}
+
+</body>
+</html>

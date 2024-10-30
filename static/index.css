@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+div.recipes-wrapper {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img.recipe-image {
+    max-height: 35vh;
+    max-width: 75vw;
+}
+a.recipe-link {
+    min-width: 20vw;
+    text-align: center;
+    border-radius: 1em;
+    padding: .5em;
+    margin: 2em;
+    background: black;
+    box-shadow: -1px 1px 10px 0px white;
+}
