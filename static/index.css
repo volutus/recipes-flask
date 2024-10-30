@@ -1,6 +1,14 @@
 h1 {
     text-align: center;
 }
+div.search-wrapper {
+    display: flex;
+    justify-content: center;
+}
+input#search {
+    font-size: xx-large;
+    min-width: 50vw;
+}
 div.recipes-wrapper {
     display: flex;
     justify-items: center;

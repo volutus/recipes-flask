@@ -23,4 +23,4 @@ def recipes_list():
     for child in Path('templates/generated').iterdir():
         if child.is_file() and child.suffix == '.html':
             recipes.append(Recipe(str(child.stem)))
-    return recipes
+    return sorted(recipes, key=lambda x: x.title)
