@@ -1,6 +1,6 @@
 # Coconut Cream Mixer Pie
 
-![Recipe Scan](/static/images/mixer-pie-coconut-cream.jpg "Recipe Scan")
+![Recipe Scan](/static/images/coconut-cream-mixer-pie.jpg "Recipe Scan")
 
 ## Ingredients
 - 4 eggs
