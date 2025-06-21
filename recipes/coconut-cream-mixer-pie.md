@@ -1,4 +1,4 @@
-# Mixer Pie (Coconut Cream)
+# Coconut Cream Mixer Pie
 
 ![Recipe Scan](/static/images/mixer-pie-coconut-cream.jpg "Recipe Scan")
 
@@ -14,5 +14,5 @@
 
 ## Directions
 1. Mix all ingredients in listed order.
-2. Pour into greated pie plate
+2. Pour into greased pie plate
 3. Bake at 350 degrees Fahrenheit for 45 minutes or until browned
